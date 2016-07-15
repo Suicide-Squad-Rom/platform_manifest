@@ -39,7 +39,7 @@
            sync-j="4"
 	   sync-f="true" />
 
-<!-- BEGIN RR -->
+<!-- BEGIN RR & BL-->
   <project path="build" name="android_build" groups="pdk" remote="bl" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -51,7 +51,7 @@
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="bl" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="rr" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="rr" />
-  <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="rr" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-13.0" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="rr"  />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="rr" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="rr" />
@@ -65,8 +65,8 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rr" />
   <project path="system/core" name="system_core" groups="pdk" remote="bl" />
   <project path="vendor/cm" name="android_vendor_rr" remote="bl" />
-  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="rr" />
-<!-- END RR -->
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="bl" />
+<!-- END RR & BL-->
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
