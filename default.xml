@@ -9,35 +9,35 @@
   <remote  name="github"
                  fetch="https://github.com" />
  
-   <remote name="cm"
-                 fetch="git://github.com/CyanogenMod"
-                 revision="cm-13.0"
-                review="review.cyanogenmod.org" />
+  <remote  name="cm"
+           fetch="git://github.com/CyanogenMod"
+           revision="cm-13.0"
+           review="review.cyanogenmod.org" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
   <remote  name="rr"
-	   fetch="https://github.com/ResurrectionRemix"
-	   revision="marshmallow" />
+	       fetch="https://github.com/ResurrectionRemix"
+	       revision="marshmallow" />
 
-  <remote name="rr-d"
-	  fetch="https://github.com/ResurrectionRemix-Devices"
-	  revision="marshmallow" />
+  <remote  name="rr-d"
+	       fetch="https://github.com/ResurrectionRemix-Devices"
+	       revision="marshmallow" />
 	  
- <remote  name="bl"
+  <remote  name="bl"
 	       fetch="https://github.com/Blackjubel"
 	       revision="Marshmallow" />		   	  
 
-  <remote name="bucket"
-	  fetch="https://bitbucket.org"
-	  revision="master" />
+  <remote  name="bucket"
+	       fetch="https://bitbucket.org"
+	       revision="master" />
 
   <default revision="refs/heads/cm-13.0"
            remote="github"
            sync-c="true"
            sync-j="4"
-	   sync-f="true" />
+	       sync-f="true" />
 
 <!-- BEGIN RR & BL-->
   <project path="build" name="android_build" groups="pdk" remote="bl" >
@@ -54,7 +54,7 @@
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-13.0" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="rr"  />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="rr" />
-  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="rr" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="bl" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="rr" />
   <project path="packages/apps/ResurrectionOTA" name="packages_apps_ResurrectionOTA" remote="rr" />
   <project path="packages/apps/ResurrectionStats" name="packages_apps_ResurrectionStats" remote="rr" />
