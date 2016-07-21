@@ -7,7 +7,7 @@
            revision="refs/tags/android-6.0.1_r52" />
 
   <remote  name="github"
-                 fetch="https://github.com" />
+           fetch="https://github.com" />
  
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod"
@@ -18,26 +18,26 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="rr"
-	       fetch="https://github.com/ResurrectionRemix"
-	       revision="marshmallow" />
+	   fetch="https://github.com/ResurrectionRemix"
+	   revision="marshmallow" />
 
   <remote  name="rr-d"
-	       fetch="https://github.com/ResurrectionRemix-Devices"
-	       revision="marshmallow" />
+	   fetch="https://github.com/ResurrectionRemix-Devices"
+	   revision="marshmallow" />
 	  
   <remote  name="bl"
-	       fetch="https://github.com/Blackjubel"
-	       revision="Marshmallow" />		   	  
+	   fetch="https://github.com/Blackjubel"
+	   revision="Marshmallow" />		   	  
 
   <remote  name="bucket"
-	       fetch="https://bitbucket.org"
-	       revision="master" />
+	   fetch="https://bitbucket.org"
+	   revision="master" />
 
   <default revision="refs/heads/cm-13.0"
            remote="github"
            sync-c="true"
            sync-j="4"
-	       sync-f="true" />
+	   sync-f="true" />
 
 <!-- BEGIN RR & BL-->
   <project path="build" name="android_build" groups="pdk" remote="bl" >
