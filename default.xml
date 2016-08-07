@@ -67,6 +67,7 @@
   <project path="vendor/cm" name="android_vendor_rr" remote="bl" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="bl" />
   <project path="packages/services/ThemeManagerService" name="android_packages_services_ThemeManagerService" remote="rr" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="bl" />
 <!-- END RR & BL-->
 
 <!-- BEGIN CYANOGENMOD -->
@@ -266,7 +267,6 @@
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="SlimSaber/android_packages_apps_PackageInstaller" remote="github" revision="mm6.0" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" groups="pdk-fs" />
