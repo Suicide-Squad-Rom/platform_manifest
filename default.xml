@@ -28,6 +28,10 @@
   <remote  name="bl"
 	   fetch="https://github.com/Blackjubel"
 	   revision="Marshmallow" />		   	  
+	   
+  <remote  name="v4"
+	   fetch="https://github.com/Blackjubel"
+	   revision="ViPER4Android" />	   
 
   <remote  name="bucket"
 	   fetch="https://bitbucket.org"
