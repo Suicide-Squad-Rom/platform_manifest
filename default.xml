@@ -31,7 +31,7 @@
 	   
   <remote  name="v4"
 	   fetch="https://github.com/Blackjubel"
-	   revision="ViPER4Android" />	   
+	   revision="Viper4Android" />	   
 
   <remote  name="bucket"
 	   fetch="https://bitbucket.org"
