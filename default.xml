@@ -68,7 +68,7 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rr" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rr" />
   <project path="system/core" name="system_core" groups="pdk" remote="bl" />
-  <project path="vendor/cm" name="android_vendor_rr" remote="v4" />
+  <project path="vendor/cm" name="android_vendor_rr" remote="bl" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="bl" />
   <project path="packages/services/ThemeManagerService" name="android_packages_services_ThemeManagerService" remote="rr" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="bl" />
